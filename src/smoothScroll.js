@@ -31,9 +31,6 @@
 
 		init : function(){
 			if ('wheel' == this.settings.type) {
-				console.log('wheel');
-				console.log(this.settings.stepAmount);
-				console.log(this.settings.speed);
 				this.wheel();
 			}	
 		},
